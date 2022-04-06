@@ -30,3 +30,5 @@ app.listen(PORT, () => {
   console.log(`Listening on port: ${PORT}`);
   connectDb();
 });
+
+module.exports = app;
